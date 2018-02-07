@@ -7,7 +7,6 @@ namespace autenticacaoefcookie.Dados
     {
         public AutenticacaoContext(DbContextOptions<AutenticacaoContext> options): base(options)
         {
-
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
@@ -23,6 +22,6 @@ namespace autenticacaoefcookie.Dados
 
             base.OnModelCreating(modelBuilder);
         }
-        
+
     }
 }

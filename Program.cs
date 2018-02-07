@@ -22,6 +22,7 @@ namespace autenticacaoefcookie
                 var servico = escopo.ServiceProvider;
                 try{
                     var contexto = servico.GetRequiredService<AutenticacaoContext>();
+                    CodeFirstBanco.Inicializar(contexto);
                 }catch(System.Exception ex){
                     var saida = servico.GetRequiredService<ILogger<Program>>();
                     saida.LogError(ex.Message, "Erro ao criar banco");
