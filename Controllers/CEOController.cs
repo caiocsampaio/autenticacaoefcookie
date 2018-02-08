@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AutenticacaoEFCookie.Controllers
 {
-    [Authorize]
+    [Authorize(Roles="CEO")]
     public class CEOController : Controller
     {
         public IActionResult Index(){
