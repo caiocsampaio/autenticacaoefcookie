@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\38141419897\\backend\\new\\autenticacaoefcookie\\autenticacaoefcookie.csproj",
-      "projectName": "autenticacaoefcookie",
-      "projectPath": "C:\\Users\\38141419897\\backend\\new\\autenticacaoefcookie\\autenticacaoefcookie.csproj",
+      "projectUniqueName": "C:\\Users\\38141419897\\backend\\new\\AutenticacaoEFCookie\\AutenticacaoEFCookie.csproj",
+      "projectName": "AutenticacaoEFCookie",
+      "projectPath": "C:\\Users\\38141419897\\backend\\new\\AutenticacaoEFCookie\\AutenticacaoEFCookie.csproj",
       "packagesPath": "C:\\Users\\38141419897\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\38141419897\\backend\\new\\autenticacaoefcookie\\obj\\",
+      "outputPath": "C:\\Users\\38141419897\\backend\\new\\AutenticacaoEFCookie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

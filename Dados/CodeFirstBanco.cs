@@ -1,11 +1,14 @@
-using autenticacaoefcookie.Models;
+using System.Linq;
+using AutenticacaoEFCookie.Models;
 
-namespace autenticacaoefcookie.Dados
+namespace AutenticacaoEFCookie.Dados
 {
     public class CodeFirstBanco
     {
         public static void Inicializar(AutenticacaoContext contexto){
             contexto.Database.EnsureCreated();
+
+            if(contexto.Usuarios.Any()) return;
 
             var usuario = new Usuario(){
                 Nome = "Jair",

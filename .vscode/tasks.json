@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/autenticacaoefcookie.csproj"
+                "${workspaceFolder}/AutenticacaoEFCookie.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

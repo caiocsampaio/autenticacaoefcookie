@@ -1,7 +1,7 @@
-using autenticacaoefcookie.Models;
+using AutenticacaoEFCookie.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace autenticacaoefcookie.Dados
+namespace AutenticacaoEFCookie.Dados
 {
     public class AutenticacaoContext:DbContext
     {
