@@ -35,13 +35,14 @@
                     @{  
                         if(User.Identity.IsAuthenticated)
                         { 
-                            if(User.IsInRole("Financeiro")){  
-                                <li><a asp-area="" asp-controller="Financeiro" asp-action="Index">Financeiro</a></li>
+                            if(User.IsInRole("CEO")){  
+                                <li><a asp-area="" asp-controller="CEO" asp-action="Index">CEO</a></li>
                             }
 
                             if(User.IsInRole("Recursos Humanos")){  
                                 <li><a asp-area="" asp-controller="RecursosHumanos" asp-action="Index">Recursos Humanos</a></li>
                             }
+
                         }
                     }
                 </ul>
